@@ -1,0 +1,171 @@
+body {
+    background-color: black;
+    font-family: 'Fraunces', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Fraunces', serif;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    font-family: 'Inter';
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    max-height: 96px;
+
+}
+
+#navbar {
+    width: 90%;
+    max-width: 1290px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    z-index: 1;
+
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    gap: 58px;
+    max-width: 583px;
+    padding: 40px 0 40px 0;
+
+}
+
+main {
+    color: white;
+    font-family: 'Fraunces';
+    height: 1100px;
+}
+
+#abovethefold {
+    width: 100%;
+    height: 96px;
+    /* max-height: 768px; */
+}
+
+#rosa {
+    position: absolute;
+    width: 358px;
+    height: 220px;
+    left: -10px;
+    top: -60px;
+    z-index: 0;
+}
+
+#azul {
+    position: absolute;
+    width: 658px;
+    height: 658px;
+    left: 964px;
+    top: 278px;
+    justify-content: right;
+    z-index: 0;
+}
+
+#white {
+    position: absolute;
+    width: 237px;
+    height: 236px;
+    left: 40px;
+    top: 698px;
+    z-index: 0;
+}
+
+h2 {
+    font-size: 36px;
+    /* justify-content: center; */
+    margin-top: 175px;
+    margin-left: 80px;
+    margin-bottom: 32px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    width: 650px;
+    margin-top: 16px;
+    margin-left: 80px;
+}
+
+.bolded {
+    font-weight: bold;
+    color: #E39BD3;
+}
+
+.imagenesderecha {
+    width: 575.64px;
+    height: 710.87px;
+}
+
+#fotofondo {
+    position: absolute;
+    left: 850px;
+    top: 189.47px;
+}
+
+#fotomedio {
+    position: absolute;
+    left: 1045px;
+    top: 232px;
+}
+
+#fototop {
+    position: absolute;
+    left: 830px;
+    top: 457.4px;
+}
+
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4px;
+    gap: 8px;
+    width: 100%;
+    height: 80px;
+    background-color: #A5C9E2;
+    /* align-content: center; */
+}
+
+.enlacesfooter {
+    display: flex;
+    color: #FFFFFF;
+    justify-content: space-between;
+    /* max-width: 1290px; */
+    align-content: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#RRSS {
+    display: flex;
+    align-items: flex-start;
+    gap: 113px;
+    width: 24px;
+    height: 24px ;
+}
+
+#rights {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    gap: 8px;
+    color: black;
+    font-family: 'Inter', sans-serif;
+}
+
+

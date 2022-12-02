@@ -1,0 +1,251 @@
+body {
+    background-color: black;
+    font-family: 'Fraunces', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Fraunces', serif;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    font-family: 'Inter';
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    max-height: 768px;
+}
+
+#navbar {
+    width: 90%;
+    max-width: 1290px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+#navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    gap: 58px;
+    max-width: 583px;
+    padding: 40px 0 40px 0;
+}
+
+.hover{
+    font-weight: bold;
+    color: #E39BD3;
+}
+
+#abovethefold {
+    background-image: url("../img/unsplash_8uZPynIu-rQ.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 100%;
+    height: 90vh;
+    align-content: flex-end;
+    max-height: 768px;
+}
+
+.textoderecha {
+    color: white;
+    font-family: 'fraunces';
+    flex-direction: column;
+    max-width: 1290px;
+    width: 90%;
+    align-items: flex-end;
+    margin-top: 222px;
+    margin-left: 600px;
+    text-align: right;
+    max-block-size: 90%;
+}
+
+#welcome {
+    font-size: 36px;
+    margin-bottom: 16px;
+    text-decoration: none;
+    
+}
+
+#marina {
+    text-decoration: none;
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+
+.textoderecha h1 {
+    font-size: 100px;
+    margin-bottom: 16px;
+    max-width: 1290px;
+    width: 90%;
+    margin-top: 30px;
+    text-align: right;
+    margin-left: -328px;
+
+
+}
+
+main {
+    display: flex;
+    margin-top: 40px;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 140px;
+}
+
+h2 {
+    display: flex;
+    color: white;
+    font-family: 'Fraunces';
+    font-size: 36px;
+    justify-content: center;
+    text-decoration: underline;
+    margin-top: 30px;
+}
+
+#proyectos {
+    display: flex;
+    gap: 104px;
+    align-items: center;
+    padding-top: 104px;
+    
+
+    color: white;
+    font-family: 'Inter';
+    width: 1250px;
+    max-width: 60%;
+    /* justify-content: center; */
+    /* border-bottom: #FFFFFF; */
+
+
+
+    /* flex-wrap: nowrap; */
+    /* font-family: 'Inter';  */
+    /* text-align: center; */
+    /* flex-direction: row; */
+
+}
+
+
+#proyectos {
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#proyectos img {
+    width: 480px;
+}
+
+#proyectos h3 {
+    font-size: 24px;
+    line-height: 79px;
+    margin-bottom: 8px;
+    text-decoration: solid;
+}
+
+#proyectos p {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 8px;
+}
+
+#proyectos a {
+    font-size: 16px;
+    line-height: 28px;
+    color: white;
+}
+
+.linkedinproyecto{
+    width: 50%;
+    height: 50%;
+}
+
+
+
+/* 
+.work{
+    display: flex;
+    gap:88px;
+    align-items: center;
+    padding-top: 170px;
+    margin-bottom: 96px;
+}
+.work img{
+    width: 568px;
+    border-radius: 24px;
+}
+.work div{
+    width: 494px;
+}
+.work h3{
+    font-size: 30px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.work p{
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+.work a{
+    font-size: 20px;
+    line-height: 28px;
+    color: black;
+}
+ */
+
+/* hr {
+    width: 100%;
+    background-image: url("../img/linea\ separadora.jpg");
+    height: 5px;
+} */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4px;
+    gap: 8px;
+    width: 100%;
+    height: 80px;
+    background-color: #A5C9E2;
+    /* align-content: center; */
+}
+
+.enlacesfooter {
+    display: flex;
+    color: #FFFFFF;
+    justify-content: space-between;
+    /* max-width: 1290px; */
+    align-content: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#RRSS {
+    display: flex;
+    align-items: flex-start;
+    gap: 113px;
+    width: 24px;
+    height: 24px ;
+}
+
+#rights {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    gap: 8px;
+    color: black;
+    font-family: 'Inter', sans-serif;
+}
+
